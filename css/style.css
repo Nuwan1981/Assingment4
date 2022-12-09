@@ -1,0 +1,50 @@
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto.ttf);
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Merienda.ttf);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  display: block;
+  width: 30%;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+  position: relative;
+  float: left;
+}
+
+.container {
+  padding: 2px 16px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height:170px;
+}
+
+h3 {
+  font-family: Roboto;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+   font-family: Merienda
+}
+
+body {
+ font-family: Calibri;
+}
